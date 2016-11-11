@@ -1,0 +1,128 @@
+{
+  "definitions": {
+    "Risk": {
+      "title": "Risk",
+      "description": "A risk relating to the project.",
+      "properties": {
+        "id": {
+          "title": "Risk ID",
+          "description": "A local identifier for this risk, unique within this block. This field is used to keep track of multiple revisions of a risk through the compilation from release to record mechanism.",
+          "type": [
+            "string",
+            "integer"
+          ],
+          "mergeStrategy": "overwrite"
+        },
+        "category": {
+          "title": "Risk category",
+          "description": "Specify the category of the risk against the [risk category codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#risk-category).",
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "governance",
+            "construction",
+            "demand",
+            "operationPerformance",
+            "financial",
+            "forcemajeure",
+            "governmentAction",
+            "changeInLaw",
+            "rebalancing",
+            "renegotiation",
+            "contractTermination",
+            null
+          ],
+          "mergeStrategy": "ocdsVersion"
+        },
+        "description": {
+          "title": "Risk description",
+          "description": "A description for this risk.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "mergeStrategy": "ocdsVersion"
+        },
+        "allocation": {
+          "title": "Risk allocation",
+          "description": "The party which retains the risk.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "publicAuthority",
+            "privateParty",
+            "shared",
+            null
+          ],
+          "mergeStrategy": "ocdsVersion"
+        },
+        "likelihood": {
+          "title": "Risk likelihood",
+          "description": "The probability of the risk occuring.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "low",
+            "med",
+            "high",
+            null
+          ],
+          "mergeStrategy": "ocdsVersion"
+        },
+        "fiscalImpact": {
+          "title": "Risk impact",
+          "description": "The impact of the risk occurring.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "low",
+            "med",
+            "high",
+            null
+          ],
+          "mergeStrategy": "ocdsVersion"
+        },
+        "mitigation": {
+          "title": "Risk mitigation",
+          "description": "A description of the mitigation for the risk.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "mergeStrategy": "ocdsVersion"
+        },
+        "notes": {
+          "title": "Risk notes",
+          "description": "Additional notes on the risk, for example the rationale for the allocation",
+          "type": [
+            "string",
+            "null"
+          ],
+          "mergeStrategy": "ocdsVersion"
+        }
+      }
+    },
+    "Contract": {
+      "properties": {
+        "riskAllocation": {
+          "title": "Risk allocation",
+          "description": "Information on the allocation of risks relating to the contract.",
+          "type": "array",
+          "mergeStrategy": "ocdsVersion",
+          "items": {
+            "$ref": "#/definitions/Risk"
+          },
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}
