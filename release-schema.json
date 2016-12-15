@@ -84,7 +84,7 @@
           ],
           "enum": [
             "low",
-            "med",
+            "medium",
             "high",
             null
           ],
