@@ -3,7 +3,8 @@
     "Risk": {
       "title": "Risk",
       "description": "A risk relating to the project.",
-      "properties": {
+      "type": "object",
+	  "properties": {
         "id": {
           "title": "Risk ID",
           "description": "A local identifier for this risk, unique within this block. This field is used to keep track of multiple revisions of a risk through the compilation from release to record mechanism.",
