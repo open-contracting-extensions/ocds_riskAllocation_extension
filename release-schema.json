@@ -16,24 +16,10 @@
         },
         "category": {
           "title": "Risk category",
-          "description": "Specify the category of the risk against the [risk category codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#risk-category).",
+          "description": "Specify the category of the risk against the risk category codelist.",
           "type": [
             "string",
             "null"
-          ],
-          "enum": [
-            "governance",
-            "construction",
-            "demand",
-            "operationPerformance",
-            "financial",
-            "forcemajeure",
-            "governmentAction",
-            "changeInLaw",
-            "rebalancing",
-            "renegotiation",
-            "contractTermination",
-            null
           ],
           "mergeStrategy": "ocdsVersion"
         },
@@ -56,37 +42,7 @@
           "enum": [
             "publicAuthority",
             "privateParty",
-            "shared",
-            null
-          ],
-          "mergeStrategy": "ocdsVersion"
-        },
-        "likelihood": {
-          "title": "Risk likelihood",
-          "description": "The probability of the risk occuring.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "enum": [
-            "low",
-            "medium",
-            "high",
-            null
-          ],
-          "mergeStrategy": "ocdsVersion"
-        },
-        "fiscalImpact": {
-          "title": "Risk impact",
-          "description": "The impact of the risk occurring.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "enum": [
-            "low",
-            "medium",
-            "high",
+            "undefined",
             null
           ],
           "mergeStrategy": "ocdsVersion"
