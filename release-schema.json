@@ -19,7 +19,9 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+		  "codelist": "riskCategory.csv",
+		  "openCodelist": true
         },
         "description": {
           "title": "Risk description",
@@ -36,7 +38,8 @@
             "string",
             "null"
           ],
-		"openCodelist": "false"
+		"codelist": "riskAllocation.csv",
+		"openCodelist": false
         },
         "mitigation": {
           "title": "Risk mitigation",
