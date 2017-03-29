@@ -11,31 +11,17 @@
           "type": [
             "string",
             "integer"
-          ],
-          "mergeStrategy": "overwrite"
+          ]
         },
         "category": {
           "title": "Risk category",
-          "description": "Specify the category of the risk against the [risk category codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#risk-category).",
+          "description": "Specify the category of the risk against the risk category codelist.",
           "type": [
             "string",
             "null"
           ],
-          "enum": [
-            "governance",
-            "construction",
-            "demand",
-            "operationPerformance",
-            "financial",
-            "forcemajeure",
-            "governmentAction",
-            "changeInLaw",
-            "rebalancing",
-            "renegotiation",
-            "contractTermination",
-            null
-          ],
-          "mergeStrategy": "ocdsVersion"
+		  "codelist": "riskCategory.csv",
+		  "openCodelist": true
         },
         "description": {
           "title": "Risk description",
@@ -43,8 +29,7 @@
           "type": [
             "string",
             "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
+          ]
         },
         "allocation": {
           "title": "Risk allocation",
@@ -53,43 +38,8 @@
             "string",
             "null"
           ],
-          "enum": [
-            "publicAuthority",
-            "privateParty",
-            "shared",
-            null
-          ],
-          "mergeStrategy": "ocdsVersion"
-        },
-        "likelihood": {
-          "title": "Risk likelihood",
-          "description": "The probability of the risk occuring.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "enum": [
-            "low",
-            "medium",
-            "high",
-            null
-          ],
-          "mergeStrategy": "ocdsVersion"
-        },
-        "fiscalImpact": {
-          "title": "Risk impact",
-          "description": "The impact of the risk occurring.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "enum": [
-            "low",
-            "medium",
-            "high",
-            null
-          ],
-          "mergeStrategy": "ocdsVersion"
+		"codelist": "riskAllocation.csv",
+		"openCodelist": false
         },
         "mitigation": {
           "title": "Risk mitigation",
@@ -97,8 +47,7 @@
           "type": [
             "string",
             "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
+          ]
         },
         "notes": {
           "title": "Risk notes",
@@ -106,8 +55,7 @@
           "type": [
             "string",
             "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
+          ]
         }
       }
     },
@@ -117,7 +65,6 @@
           "title": "Risk allocation",
           "description": "Information on the allocation of risks relating to the contract.",
           "type": "array",
-          "mergeStrategy": "ocdsVersion",
           "items": {
             "$ref": "#/definitions/Risk"
           },
