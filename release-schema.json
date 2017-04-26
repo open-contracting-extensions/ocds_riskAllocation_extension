@@ -41,14 +41,6 @@
 		"codelist": "riskAllocation.csv",
 		"openCodelist": false
         },
-        "mitigation": {
-          "title": "Risk mitigation",
-          "description": "A description of the mitigation for the risk.",
-          "type": [
-            "string",
-            "null"
-          ]
-        },
         "notes": {
           "title": "Risk notes",
           "description": "Additional notes on the risk, for example the rationale for the allocation",
