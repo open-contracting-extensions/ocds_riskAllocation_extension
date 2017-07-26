@@ -8,13 +8,13 @@ This extension introduces a new ```risk``` building block and extends the ```con
 
 ## Risk Allocation Field
 
-The ```contract/riskAllocation``` field is an array of ```risk``` buliding blocks, describing the allocation of risks in the contract.
+The ```contract/riskAllocation``` field is an array of ```risk``` building blocks, describing the allocation of risks in the contract.
 
 ## Risk Building Block
 
 The risk building block provides a way to:
 
-* Categorise the risk against the [risk category codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#risk-category)
+* Categorize the risk against the [risk category codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#risk-category)
 * Provide a free text description of the risk
 * Describe the allocation of the risk between the parties in the contracting process
 * Describe the likelihood and fiscal impact of the risk
