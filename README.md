@@ -15,3 +15,7 @@ The party retaining each risk should be represented using the ```risk/allocation
 The description of the risk should be provided as free text using the ```risk/description``` field and the mitigation for the risk should be provided as free text using the ```risk/mitigation``` field.
 
 Additional free text information on the risk can be provided using the ```risk/notes``` field.
+
+## Issues
+
+Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
