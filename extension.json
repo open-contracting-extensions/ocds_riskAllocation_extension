@@ -1,1 +1,11 @@
-{"name":"ocds-riskAllocation-extension","description":"Draft risk allocation extension for ppp extension"}
+{
+  "name": {
+    "en": "ocds-riskAllocation-extension"
+  },
+  "description": {
+    "en": "Draft risk allocation extension for ppp extension"
+  },
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting/ocds-riskAllocation-extension"
+  }
+}
