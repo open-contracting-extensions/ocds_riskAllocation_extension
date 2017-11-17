@@ -7,5 +7,9 @@
   },
   "documentationUrl": {
     "en": "https://github.com/open-contracting/ocds-riskAllocation-extension"
-  }
+  },
+  "codelists": [
+    "riskAllocation.csv",
+    "riskCategory.csv"
+  ]
 }
