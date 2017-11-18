@@ -4,7 +4,7 @@
       "title": "Risk",
       "description": "A risk relating to the project.",
       "type": "object",
-	  "properties": {
+      "properties": {
         "id": {
           "title": "Risk ID",
           "description": "A local identifier for this risk, unique within this block. This field is used to keep track of multiple revisions of a risk through the compilation from release to record mechanism.",
@@ -20,8 +20,8 @@
             "string",
             "null"
           ],
-		  "codelist": "riskCategory.csv",
-		  "openCodelist": true
+          "codelist": "riskCategory.csv",
+          "openCodelist": true
         },
         "description": {
           "title": "Risk description",
@@ -38,8 +38,14 @@
             "string",
             "null"
           ],
-		"codelist": "riskAllocation.csv",
-		"openCodelist": false
+          "codelist": "riskAllocation.csv",
+          "openCodelist": false,
+          "enum": [
+            "publicAuthority",
+            "privateParty",
+            "undefined",
+            null
+          ]
         },
         "notes": {
           "title": "Risk notes",
