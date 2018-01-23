@@ -4,11 +4,11 @@ The risk allocation extension provides a way to describe the risk allocations de
 
 Understanding the allocation of risk between the parties involved in a contracting process is important for comparison of the agreements between public authorities and private parties in different projects and jurisdictions.
 
-This extension introduces a new ```risk``` building block and extends the ```contract``` section of OCDS block with a new ```riskAllocation``` field.
+This extension introduces a new `risk` building block and extends the `contract` section of OCDS block with a new `riskAllocation` field.
 
 ## Risk Allocation Field
 
-The ```contract/riskAllocation``` field is an array of ```risk``` building blocks, describing the allocation of risks in the contract.
+The `contract/riskAllocation` field is an array of `risk` building blocks, describing the allocation of risks in the contract.
 
 ## Risk Building Block
 
