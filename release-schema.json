@@ -4,6 +4,9 @@
       "title": "Risk",
       "description": "A risk relating to the project.",
       "type": "object",
+      "required": [
+        "id"
+      ],
       "properties": {
         "id": {
           "title": "Risk ID",
