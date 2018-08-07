@@ -14,5 +14,8 @@
   "codelists": [
     "riskAllocation.csv",
     "riskCategory.csv"
+  ],
+  "schemas": [
+    "release-schema.json"
   ]
 }
