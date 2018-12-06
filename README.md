@@ -2,7 +2,7 @@
 
 The [framework for disclosure in PPPs](http://pubdocs.worldbank.org/en/773541448296707678/Disclosure-in-PPPs-Framework.pdf) calls for individual risk allocation information.
 
-The risk allocation extension is used to provide structured data on the risk allocations defined in a public private partnerships contract.
+The risk allocation extension is used to provide structured data on the risk allocations defined in a public private partnership's contract.
 
 ## Overview
 
