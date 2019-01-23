@@ -6,7 +6,7 @@
     "en": "For providing the risk allocations defined in a public private partnership's contract."
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting/ocds-riskAllocation-extension"
+    "en": "https://extensions.open-contracting.org/en/extensions/risk_allocation/"
   },
   "compatibility": [
     "1.1"
