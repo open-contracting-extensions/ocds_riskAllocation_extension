@@ -16,6 +16,41 @@ The description of the risk should be provided as free text using the `risk/desc
 
 Additional free text information on the risk can be provided using the `risk/notes` field.
 
+## Example
+
+```json
+{
+  "contracts": [
+    {
+      "id": "1",
+      "awardID": "1",
+      "title": "Public Private Partnership Agreement",
+      "description": "Public-Private Partnership agreement entered into by and between telecoms promoter, together with national fibre infrastructure and the special purpose vehicle Mega Consortium Ltd",
+      "riskAllocation": [
+        {
+          "id": "1",
+          "category": "compliance",
+          "description": "Risks deriving from the compliance or lack thereof of regulatory obligations related to the development of the Project",
+          "allocation": "privateParty"
+        },
+        {
+          "id": "2",
+          "category": "construction",
+          "description": "Risks deriving from procurement or lack thereof of the necessary licenses and permits for the Project’s development",
+          "allocation": "privateParty"
+        },
+        {
+          "id": "3",
+          "category": "construction",
+          "description": "Risks arising from the procurement or lack thereof of rights of way required for the Project’s development",
+          "allocation": "privateParty"
+        }
+      ]
+    }
+  ]
+}
+```
+
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
