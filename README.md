@@ -57,6 +57,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2019-03-20
+
+* Add `"minLength": 1` on required string fields.
+
 ### 2018-05-08
 
-* Make `risk/id` required to support revision tracking and [list merging](http://standard.open-contracting.org/latest/en/schema/merging/#lists)
+* Make `Risk.id` required to support revision tracking and [list merging](http://standard.open-contracting.org/latest/en/schema/merging/#lists)
