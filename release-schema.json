@@ -14,7 +14,8 @@
           "type": [
             "string",
             "integer"
-          ]
+          ],
+          "minLength": 1
         },
         "category": {
           "title": "Risk category",
