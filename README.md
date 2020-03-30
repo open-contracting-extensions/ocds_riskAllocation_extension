@@ -12,7 +12,7 @@ The risk category can be represented using the `Risk.category` field using value
 
 The party retaining each risk should be represented using the `Risk.allocation` field using values from the `riskAllocation.csv` codelist.
 
-The description of the risk should be provided as free text using the `Risk.description` field and the mitigation for the risk should be provided as free text using the `Risk.mitigation` field.
+The description of the risk should be provided as free text using the `Risk.description` field.
 
 Additional free text information on the risk can be provided using the `Risk.notes` field.
 
