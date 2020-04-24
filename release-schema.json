@@ -25,7 +25,8 @@
             "null"
           ],
           "codelist": "riskCategory.csv",
-          "openCodelist": true
+          "openCodelist": true,
+          "minLength": 1
         },
         "description": {
           "title": "Risk description",
@@ -33,7 +34,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "allocation": {
           "title": "Risk allocation",
@@ -57,9 +59,11 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         }
-      }
+      },
+      "minProperties": 1
     },
     "Contract": {
       "properties": {
@@ -70,7 +74,8 @@
           "items": {
             "$ref": "#/definitions/Risk"
           },
-          "uniqueItems": true
+          "uniqueItems": true,
+          "minItems": 1
         }
       }
     }

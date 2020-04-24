@@ -57,6 +57,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2020-04-24
+
+* Add `minProperties`, `minItems` and/or `minLength` properties.
+
 ### 2019-03-20
 
 * Add `"minLength": 1` on required string fields.
