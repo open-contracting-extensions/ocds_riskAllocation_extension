@@ -39,7 +39,7 @@
         },
         "allocation": {
           "title": "Risk allocation",
-          "description": "The party that retains the risk.",
+          "description": "The party to the contract that retains the risk.",
           "type": [
             "string",
             "null"
