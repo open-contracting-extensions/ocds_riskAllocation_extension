@@ -1,6 +1,6 @@
 # Risk allocation
 
-The [framework for disclosure in PPPs](http://pubdocs.worldbank.org/en/773541448296707678/Disclosure-in-PPPs-Framework.pdf) calls for individual risk allocation information.
+The [framework for disclosure in PPPs](https://thedocs.worldbank.org/en/doc/773541448296707678-0100022015/original/DisclosureinPPPsFramework.pdf) calls for individual risk allocation information.
 
 The risk allocation extension is used to provide structured data on the risk allocations defined in a public private partnership's contract, through a `contracts.riskAllocation` array.
 
@@ -61,4 +61,4 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2018-05-08
 
-* Make `Risk.id` required to support revision tracking and [list merging](http://standard.open-contracting.org/latest/en/schema/merging/#lists)
+* Make `Risk.id` required to support revision tracking and [list merging](https://standard.open-contracting.org/latest/en/schema/merging/#array-values)
